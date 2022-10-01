@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+  <head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0, user-scalable=yes">
+    <meta name = "author" content = "Diego Fernando Bulla Poveda">
+    <meta name="keywords" content="TIC, Misión TIC, Ciclo III, Restaurante, Proyecto, Flask, Web">
+    <meta name="description" content="Aplicacion web para el restaurante Au Bon Pain">
+
+    <title>Au Bon Pain</title>
+    <link rel="stylesheet" href="{{ url_for("static", filename="base.css") }}">
+  </head>
+  <body>
+    {% block content %}{% endblock %}
+  </body>
+</html>
